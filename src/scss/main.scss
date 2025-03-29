@@ -9,6 +9,7 @@
  */
 
  @use 'layout/header';
+ @use 'layout/footer';
 
 
  html{
@@ -16,6 +17,7 @@
     background-color: #F0EBE5; 
     font-weight: 100;
     font-style: normal;
+   
    
 
  }
@@ -27,3 +29,104 @@
     background-color: #F0EBE5;       
   }
 
+  .main__modulo2{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    place-items: center;
+    justify-items: center;
+    text-align: center;
+    color: #0c474b;
+    gap: 2rem;
+
+
+    .parrafo1, 
+   .parrafo2, 
+   .parrafo3{
+    font-weight: 300;
+    
+   } 
+
+   .icono{
+    padding-top:2rem;
+    padding-bottom:1rem;
+    width: 6rem;
+
+   }
+  
+    }
+
+   
+
+   .main__modulo3{
+    background-color: #ff975a;
+    display: grid;
+    grid-template-columns: 1fr;
+     place-items: center;
+    justify-items: center;
+    text-align: center;
+    color: #F0EBE5;
+    padding-top: 5rem ;
+    padding-bottom: 5rem;
+
+    .icono4{
+      width: 8rem;
+      margin-bottom: 0.5rem;
+    }
+ 
+
+    .titulo2{
+      margin: 0;
+      font-size: 24px;
+      }
+
+    .parrafo4{
+      font-weight: 300;
+      margin-top: 0.5rem;
+      margin-bottom:2rem;
+      
+    }
+
+
+    .main__compra1{
+      color: #F0EBE5;
+      font-weight: 600;
+      font-size: 1.2rem;
+  
+      }
+
+         
+    }
+
+   
+  .main__modulo4{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    place-items: center;
+    justify-items: center;
+    text-align: center;
+    color: #0c474b;
+    gap: 2rem;
+
+    }
+
+  .seccion-imagen{
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    .imagen1{
+      width: 100%;
+    }
+
+  }
+
+
+ 

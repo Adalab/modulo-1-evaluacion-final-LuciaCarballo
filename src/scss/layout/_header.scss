@@ -40,10 +40,10 @@
         background-color: #0c474b;
         color: white;
         font-weight: 600;
-        width: 8rem; /* Ancho */
-        height: 10px; /* Alto */
-        padding: 2rem; /* Relleno interno */
-        display: flex; /* Asegura que sea visible */
+        width: 8rem; 
+        height: 5px; 
+        padding: 1.5rem; 
+        display: flex; 
         flex-direction: row;
         align-items: center;
 
@@ -74,10 +74,4 @@
 
 
 
-.main__modulo2{
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
-
-
-}
 
