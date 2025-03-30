@@ -7,9 +7,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+  <link rel="icon" href="/images/logo.png" type="image/png">
+  
 
   <title>Open Spaces</title>
+
+ 
 
 
 </head>
@@ -18,10 +21,25 @@
 
   <header class="header">
 
+  <div id="inicio"></div>
+
   <section class=header__img1>
-    <img class=header__menu src="/images/menus.png" alt="Icono menu">
+    <a href="https://adalab.es">
+      <img class=header__menu src="/images/menus.png" alt="Icono menu">
+
+    </a>
+    
         
   </section>
+
+  <nav class="header__nav">
+    <ul class="lista-menu">
+      <li ><a class="item" href="">Productos</a></li>
+      <li ><a class="item" href="">Colecciones</a></li>
+      <li ><a class="item" href="">Tienda</a></li>
+      <li ><a class="item" href="">Inicio</a></li>
+    </ul>
+  </nav>
 
   <section class=header__img2>
         <img class=header__logo src="/images/logo.png" alt="Imagen del logo">
@@ -32,19 +50,16 @@
 
   <section class="header__text">
     
-          <nav class="header__nav">
-      <ul>
-        <li><a href="">Productos</a></li>
-        <li><a href="">Colecciones</a></li>
-        <li><a href="">Tienda</a></li>
-        <li><a href="">Inicio</a></li>
-      </ul>
-    </nav>
+ 
+    <div class="texto">
+      <h1 class="titulo">Disfruta creando espacios</h1>
 
-    <h1 class="titulo">Disfruta creando espacios</h1>
+      <p class="boton">Comprar Ahora</p> 
 
-    <p class="boton">Comprar Ahora</p>
 
+    </div>
+
+ 
      
   </section>
 
@@ -55,36 +70,43 @@
 
     <section class="main__modulo2">
       <h2>Volverse organizado se siente mejor con OPEN SPACES </h2>
+
+      <div class="main__articulos">
+
+        <article class="article1">
+
+          <img class="icono" src="/images/icon_1.png" alt="icono 1">
+  
+          <h3>Lo que necesitas</h3>
+  
+          <p class="parrafo1">Una linea de productos diseñados para todos tus espacios</p>
+  
+        </article >
+  
+         <article class="article2">
+  
+          <img class="icono" src="/images/Biodegradable bag.png" alt="icono 2">
+  
+          <h3>Materia primas sustentables</h3>
+          
+          <p class="parrafo2">Todos los productos con materias primas sustentables</p>
+  
+        </article>
+  
+        <article class="article3">
+  
+          <img class="icono" src="/images/Park.png" alt="icono 3">
+  
+          <h3>Guía</h3>
+          
+          <p class="parrafo3">Soporte y asesoramiento para ayudarte con tu objetivo</p>
+  
+        </article>
+
+
+      </div>
            
-      <article class="article1">
-
-        <img class="icono" src="/images/icon_1.png" alt="icono 1">
-
-        <h3>Lo que necesitas</h3>
-
-        <p class="parrafo1">Una linea de productos diseñados para todos tus espacios</p>
-
-      </article >
-
-       <article class="article2">
-
-        <img class="icono" src="/images/Biodegradable bag.png" alt="icono 2">
-
-        <h3>Materia primas sustentables</h3>
-        
-        <p class="parrafo2">Todos los productos con materias primas sustentables</p>
-
-      </article>
-
-      <article class="article3">
-
-        <img class="icono" src="/images/Park.png" alt="icono 3">
-
-        <h3>Guía</h3>
-        
-        <p class="parrafo3">Soporte y asesoramiento para ayudarte con tu objetivo</p>
-
-      </article>
+ 
 
 
     </section>
@@ -132,6 +154,8 @@
 
   <footer >
 
+    <section class="footer">
+
     <nav class="footer__tienda">
       
       <h4>Tienda</h4>
@@ -148,6 +172,7 @@
     <nav class="footer__nosotros">
       
       <h4>Nosotros</h4>
+
       <ul> 
         <li><a href="">Nuestra guía</a></li>
         <li><a href="">Nuestro diseño</a></li>
@@ -162,20 +187,31 @@
 
         <h4>Contacto</h4>
         <ul>
-          <li><a href="mailito:ayuda@openspaces.com"></a>ayuda@openspaces.com></li>
+          <li><a href="mailito:ayuda@openspaces.com"></a>ayuda@openspaces.com</li>
           <li>Socios</li>
 
         </ul>
 
-      <!--   <div>
-          <img class="linkedin" src="/images/linkedin.svg" alt="logo Linkedin">
-          <img class="instagram" src="/images/instagram.svg" alt="logo Instagram">
-          <img class="twitter" src="/images/twitter.svg" alt="logo Twitter">
+       <div class="redes">
+          <img class="linkedin" src="/images/linkedin.png" alt="logo Linkedin">
+          <img class="instagram" src="/images/instagram.png" alt="logo Instagram">
+          <img class="twitter" src="/images/twitter.png" alt="logo Twitter">
 
-        </div> -->
+        </div> 
                
 
       </nav>
+
+    </section>
+
+    <div class="div_flecha">
+
+      <a href="#inicio">
+        <img class="flecha" src="/images/flecha.png" alt="flecha">
+      </a>
+      
+
+    </div>
     
 
   </footer>

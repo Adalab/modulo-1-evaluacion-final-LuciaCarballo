@@ -95,6 +95,8 @@
       color: #F0EBE5;
       font-weight: 600;
       font-size: 1.2rem;
+      text-decoration: underline;
+
   
       }
 
@@ -127,18 +129,26 @@
   height: 20rem;
     }
 
-  /* .seccion-imagen{
 
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-bottom: 0;
+    @media (min-width:900px) {
+      .main__articulos{
+        display: flex;
+        flex-direction: row;
 
-    .imagen1{
-      width: 100%;
-      height: 100%;
+      }
+
+      h2{
+        font-size:3rem;
+
+      }
+
+      .seccion-imagen{
+        height: 500px;
+
+      }
+
+
+
     }
-
-  } */
-
 
  

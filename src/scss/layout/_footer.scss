@@ -1,28 +1,117 @@
 @use '../core/variables' as vars;
 
-/* footer{
+footer{
 background-color: #0c474b;
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 padding-top: 4rem;
+padding-bottom: 4rem;
+
+
+}
+
+/* 
+.footer{
+height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 
-} */
+ */
 
-/* .linkedin,
-.instagram,
-.twitter{
+ .footer{
 
-width: 1rem;
-height: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    place-items: center;
+    justify-items: center;
+    text-align:left;
+    gap: 3rem;
+    
 
-} */
+    }
 
-h4{
-margin: 0;
+
+.footer__tienda,
+.footer__nosotros,
+.footer__contacto{
+    width: 10rem;
+    color: white;
+    font-size: 20px;
+    
+
 
 }
 
+
+
+ul {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+     
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #F0EBE5;
+
+  }
+
+
+h4{
+margin: 0;
+color: #F0EBE5;
+font-size: 25px;
+}
+
+
+.redes{
+
+    display:flex;
+    flex-direction: row;
+    padding-top:2rem;
+    gap: 1.5rem;
+
+    .linkedin,
+    .instagram,
+    .twitter{
+
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #F0EBE5;
+        stroke: blue;
+       
+        
+
+    } 
+
+}
+
+
+.div_flecha{
+    margin-top:2rem;
+    display:flex;
+    justify-content: end;
+
+
+}
+
+
+@media (min-width:900px) {
+.footer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+}
