@@ -147,8 +147,31 @@
 
       }
 
-
-
     }
+
+
+    @media (min-width:1728px) {
+      .parte-final{
+          display: flex;
+          flex-direction: row;
+  
+  
+          .seccion-imagen{
+            background-image: url(/images/creando-espacios.jpg); /* Ruta de la imagen */
+            background-size: cover; /* Hace que la imagen cubra todo el área del header */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            padding-bottom: 3rem;
+            height: 20rem;
+
+              
+          }
+  
+      }
+  
+  
+  
+  
+  }
 
  

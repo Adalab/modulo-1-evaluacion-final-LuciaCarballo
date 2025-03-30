@@ -112,31 +112,58 @@
 
 
 
-@media (min-width:1728px){
+@media (min-width:1728px){ 
+
+  .header{
+padding-top: 76px;
+height: 925px;
+
+  }
+
   .header__menu{
     display: none;
     
   }
 
-  .lista-menu{
-
-  
-    
+  .lista-menu{  
     display: flex;
     flex-direction: row;
-    gap: 3rem;
-    padding:3rem;
-    
+    gap: 3rem;    
+    padding-top: 50 px;
+    padding-left:280px;
     
     .item{
       color:#0c474b;
-      font-size: 1.5rem;
-      font-weight: 200;
+      font-size: 1rem;
+      font-weight: 400;
 
 
     }
      
   }
+
+.header__img2{
+ 
+  
+
+  .header__logo{
+    width: 213px;
+    position: absolute;
+    margin-top: -100px;
+
+  }
+
+}
+
+.header__text{
+padding-left:280px;
+
+  
+
+}
+
+
+
 }
  
 
