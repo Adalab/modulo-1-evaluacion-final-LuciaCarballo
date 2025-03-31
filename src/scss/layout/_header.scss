@@ -44,6 +44,7 @@
       }
 
       .boton{
+        all: unset;
         background-color: #0c474b;
         color: white;
         font-weight: 600;
@@ -53,6 +54,12 @@
         display: flex; 
         flex-direction: row;
         align-items: center;
+      
+    }
+
+    .boton:hover{
+      background-color:#FF007F ;
+      color: black;
 
 
     }
@@ -79,11 +86,11 @@
 }
 
   .header__text{
-    flex-direction: column; /* Mantén los elementos en columna */
-    justify-content: flex-start; /* Alinea al inicio del eje vertical */
-    align-items: flex-start; /* Justifica al inicio del eje horizontal */
-    text-align: left; /* Alinea el texto a la izquierda */
-    padding-left: 5rem; /* Espaciado opcional */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    text-align: left; 
+    padding-left: 5rem; 
 
 
     .texto{
@@ -93,8 +100,6 @@
       text-align: left;
       align-items: flex-start;
       
-
-
     }
     
    }
@@ -157,12 +162,7 @@ height: 925px;
 
 .header__text{
 padding-left:280px;
-
-  
-
 }
-
-
 
 }
  

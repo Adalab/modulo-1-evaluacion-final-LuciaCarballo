@@ -33,7 +33,7 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1 fr;
     margin-left: 3rem;
     margin-right: 3rem;
     place-items: center;
@@ -43,10 +43,11 @@
     gap: 2rem;
 
 
-    .parrafo1, 
+   .parrafo1, 
    .parrafo2, 
    .parrafo3{
     font-weight: 300;
+  
     
    } 
 
@@ -96,8 +97,12 @@
       font-weight: 600;
       font-size: 1.2rem;
       text-decoration: underline;
-
   
+      }
+
+      .main__compra1:hover {
+        color: #FF007F;
+
       }
 
          
@@ -120,13 +125,16 @@
     }
 
     .seccion-imagen{
-      
-  background-image: url(/images/creando-espacios.jpg); /* Ruta de la imagen */
-  background-size: cover; /* Hace que la imagen cubra todo el área del header */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  padding-bottom: 3rem;
-  height: 20rem;
+      background-image: url(/images/creando-espacios.jpg); /* Ruta de la imagen */
+      background-size: cover; /* Hace que la imagen cubra todo el área del header */
+      background-position: center; /* Centra la imagen */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      padding-bottom: 3rem;
+      height: 20rem;
+
+      .imagen1{
+        display: none;
+      }
     }
 
 
@@ -151,18 +159,81 @@
 
 
     @media (min-width:1728px) {
-      .parte-final{
+             
+      .main__articulos{ 
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      gap: 20px;
+    }
+
+      .article1,
+      .article2,
+      .article3{
+        width: 400px;
+      }
+        
+      .titulo2{
+
+        font-size: 36px;
+      }
+
+      
+      
+      .parte-final{    
+        display: flex;
+         width: 100%;
+        height: 571px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        .main__modulo4{
+          padding-top: 176px;
+          padding-left: 280px;
+          width: 50%;
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          text-align: left;
+
+         
+
+            h2{
+              font-size: 36px;
+              width: 430px;
+            }
+
+            .parrafo1{
+              width: 280px;
+              font-size: 16px;
+            }
+
+          }
+          
+
+          .boton{
+
+
+          }
+
+        }
+          
   
   
           .seccion-imagen{
-            background-image: url(/images/creando-espacios.jpg); /* Ruta de la imagen */
-            background-size: cover; /* Hace que la imagen cubra todo el área del header */
-            background-position: center; /* Centra la imagen */
-            background-repeat: no-repeat; /* Evita que la imagen se repita */
-            padding-bottom: 3rem;
-            height: 20rem;
+            width: 50%;
+                       
+           
+         
+
+
+            .imagen1{
+              display:flex;
+            }
+            
 
               
           }
@@ -172,6 +243,6 @@
   
   
   
-  }
+  
 
  
